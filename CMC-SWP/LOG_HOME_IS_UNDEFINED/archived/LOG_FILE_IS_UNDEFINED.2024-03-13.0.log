@@ -1,0 +1,381 @@
+2024-03-13 12:53:39 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 6460 (E:\PRADYUMNA WORKSPACE\CMC-SWP\HEADS-CORE.zip_expanded\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC-SWP\HEADS-CORE.zip_expanded\HEADS-CORE)
+2024-03-13 12:53:39 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 12:53:39 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 12:53:48 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 12:53:48 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 12:53:48 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 12:53:48 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 12:53:54 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 12:54:07 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 28.447 seconds (JVM running for 30.719)
+2024-03-13 12:54:39 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 12:54:42 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 12:55:09 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 13:26:55 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 15652 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 13:26:55 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 13:26:55 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 13:27:01 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 13:27:01 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 13:27:01 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 13:27:01 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 13:27:06 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 13:27:19 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 24.562 seconds (JVM running for 26.261)
+2024-03-13 13:27:36 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 13:27:37 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 13:31:43 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8772 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 13:31:43 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 13:31:43 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 13:31:49 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 13:31:49 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 13:31:49 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 13:31:49 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 13:31:55 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 13:32:07 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 24.685 seconds (JVM running for 25.868)
+2024-03-13 13:32:16 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 13:32:16 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 13:33:39 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8772 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 13:33:39 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 13:33:39 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 13:33:42 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'timeTableFacultyHistoryRepository' defined in com.aashdit.prod.heads.repository.course.TimeTableFacultyHistoryRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in com.aashdit.prod.heads.repository.course.TimeTableFacultyHistoryRepository defined in @EnableJpaRepositories declared on HEADSApplication] for bean 'timeTableFacultyHistoryRepository': There is already [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in com.aashdit.prod.heads.repository.course.TimeTableFacultyHistoryRepository defined in @EnableJpaRepositories declared on CMC] bound.
+2024-03-13 13:33:42 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - report 40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'timeTableFacultyHistoryRepository', defined in com.aashdit.prod.heads.repository.course.TimeTableFacultyHistoryRepository defined in @EnableJpaRepositories declared on HEADSApplication, could not be registered. A bean with that name has already been defined in com.aashdit.prod.heads.repository.course.TimeTableFacultyHistoryRepository defined in @EnableJpaRepositories declared on CMC and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-03-13 13:34:41 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8772 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 13:34:41 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 13:34:41 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 13:34:45 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'programRepository' defined in com.aashdit.prod.heads.repository.course.ProgramRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in com.aashdit.prod.heads.repository.course.ProgramRepository defined in @EnableJpaRepositories declared on HEADSApplication] for bean 'programRepository': There is already [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in com.aashdit.prod.heads.repository.course.ProgramRepository defined in @EnableJpaRepositories declared on CMC] bound.
+2024-03-13 13:34:45 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - report 40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'programRepository', defined in com.aashdit.prod.heads.repository.course.ProgramRepository defined in @EnableJpaRepositories declared on HEADSApplication, could not be registered. A bean with that name has already been defined in com.aashdit.prod.heads.repository.course.ProgramRepository defined in @EnableJpaRepositories declared on CMC and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-03-13 13:34:58 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8772 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 13:34:58 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 13:34:58 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 13:35:00 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'payslipHeadRepository' defined in com.aashdit.prod.heads.repository.payroll.PayslipHeadRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot register bean definition [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in com.aashdit.prod.heads.repository.payroll.PayslipHeadRepository defined in @EnableJpaRepositories declared on HEADSApplication] for bean 'payslipHeadRepository': There is already [Root bean: class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in com.aashdit.prod.heads.repository.payroll.PayslipHeadRepository defined in @EnableJpaRepositories declared on CMC_SWPApplication] bound.
+2024-03-13 13:35:00 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - report 40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'payslipHeadRepository', defined in com.aashdit.prod.heads.repository.payroll.PayslipHeadRepository defined in @EnableJpaRepositories declared on HEADSApplication, could not be registered. A bean with that name has already been defined in com.aashdit.prod.heads.repository.payroll.PayslipHeadRepository defined in @EnableJpaRepositories declared on CMC_SWPApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-03-13 13:43:21 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 22492 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 13:43:21 [restartedMain] DEBUG c.a.p.h.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 13:43:21 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 13:43:29 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 13:43:29 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 13:43:29 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 13:43:29 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 13:43:36 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 13:43:47 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 26.318 seconds (JVM running for 27.082)
+2024-03-13 13:44:07 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 13:44:09 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 15:25:48 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 14816 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 15:25:48 [restartedMain] DEBUG c.a.p.h.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 15:25:48 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 15:25:56 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 15:25:56 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 15:25:56 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 15:25:56 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 15:26:03 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 15:26:13 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 25.629 seconds (JVM running for 26.395)
+2024-03-13 16:54:50 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 19504 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 16:54:50 [restartedMain] DEBUG c.a.p.h.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 16:54:50 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 16:54:56 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 16:54:56 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 16:54:56 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 16:54:56 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 16:55:01 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 16:55:06 [restartedMain] INFO  c.a.p.h.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 17.087 seconds (JVM running for 18.068)
+2024-03-13 16:55:18 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 16:55:19 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 16:55:57 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 129 : ignoring captcha
+2024-03-13 16:55:57 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-03-13 16:55:57 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 17:00:35 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-03-13 17:00:35 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 17:00:35 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 17:00:42 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.CustomLoginController - doLogin 129 : ignoring captcha
+2024-03-13 17:00:42 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-03-13 17:00:42 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 17:00:59 [http-nio-6363-exec-2] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/allowAll/getObjectTypeValue
+2024-03-13 17:01:04 [http-nio-6363-exec-6] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/allowAll/getObjectTypeValue
+2024-03-13 17:55:07 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 7724 (E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC_SWP\CMC-SWP)
+2024-03-13 17:55:07 [restartedMain] DEBUG c.a.p.c.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 17:55:07 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 17:55:12 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 17:55:12 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 17:55:12 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 17:55:12 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 17:55:16 [restartedMain] DEBUG c.a.prod.cmc.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 17:55:21 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 14.594 seconds (JVM running for 15.74)
+2024-03-13 17:56:58 [http-nio-6363-exec-3] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 17:57:02 [http-nio-6363-exec-8] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:41:15 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 13380 (E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP)
+2024-03-13 18:41:15 [restartedMain] DEBUG c.a.p.c.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 18:41:15 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 18:41:19 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 18:41:19 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 18:41:19 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 18:41:19 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 18:41:23 [restartedMain] DEBUG c.a.prod.cmc.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 18:41:28 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 13.268 seconds (JVM running for 14.482)
+2024-03-13 18:41:51 [http-nio-6363-exec-2] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 18:41:52 [http-nio-6363-exec-8] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:41:54 [http-nio-6363-exec-1] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:41:55 [http-nio-6363-exec-1] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:41:58 [http-nio-6363-exec-1] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:41:59 [http-nio-6363-exec-9] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:42:01 [http-nio-6363-exec-10] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:44:26 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 12440 (E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP)
+2024-03-13 18:44:26 [restartedMain] DEBUG c.a.p.c.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 18:44:26 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 18:44:30 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 18:44:30 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 18:44:30 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 18:44:30 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 18:44:34 [restartedMain] DEBUG c.a.prod.cmc.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 18:44:38 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 13.022 seconds (JVM running for 14.304)
+2024-03-13 18:45:10 [http-nio-6363-exec-1] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 18:45:10 [http-nio-6363-exec-4] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:45:12 [http-nio-6363-exec-8] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:45:15 [http-nio-6363-exec-6] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:45:18 [http-nio-6363-exec-5] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 18:45:24 [http-nio-6363-exec-7] DEBUG c.a.p.c.c.CustomLoginController - doLogin 129 : ignoring captcha
+2024-03-13 18:45:24 [http-nio-6363-exec-7] INFO  c.a.prod.cmc.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-03-13 18:45:24 [http-nio-6363-exec-7] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 19:08:40 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 26860 (E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP)
+2024-03-13 19:08:40 [restartedMain] DEBUG c.a.p.c.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 19:08:40 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 19:08:45 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-13 19:08:45 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-13 19:08:45 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-13 19:08:45 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-13 19:08:48 [restartedMain] DEBUG c.a.prod.cmc.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 19:08:53 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 13.418 seconds (JVM running for 14.611)
+2024-03-13 19:09:05 [http-nio-6363-exec-5] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 19:09:08 [http-nio-6363-exec-2] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 19:09:47 [http-nio-6363-exec-7] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 19:09:49 [http-nio-6363-exec-1] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 19:09:51 [http-nio-6363-exec-10] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-13 19:10:00 [http-nio-6363-exec-2] DEBUG c.a.p.c.c.CustomLoginController - doLogin 129 : ignoring captcha
+2024-03-13 19:10:00 [http-nio-6363-exec-2] INFO  c.a.prod.cmc.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-03-13 19:10:00 [http-nio-6363-exec-2] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-13 19:13:14 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 26860 (E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP)
+2024-03-13 19:13:14 [restartedMain] DEBUG c.a.p.c.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 19:13:14 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 19:13:33 [restartedMain] DEBUG c.a.prod.cmc.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 19:13:42 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 29.54 seconds (JVM running for 302.896)
+2024-03-13 19:13:51 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 26860 (E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP)
+2024-03-13 19:13:51 [restartedMain] DEBUG c.a.p.c.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-13 19:13:51 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-13 19:14:02 [restartedMain] DEBUG c.a.prod.cmc.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-13 19:14:11 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 20.257 seconds (JVM running for 332.175)

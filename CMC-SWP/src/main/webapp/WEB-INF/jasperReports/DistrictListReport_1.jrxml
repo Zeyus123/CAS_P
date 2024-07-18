@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DistrictListReport_1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ab3acfc5-8f4b-4fdb-b5f4-20108c6b7417">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="districtName" class="java.lang.String"/>
+	<field name="districtCode" class="java.lang.String"/>
+	<field name="isActive" class="java.lang.Boolean"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement x="81" y="0" width="399" height="38" uuid="5fee64b2-82dc-4761-89cd-77e1deb606bd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[District List Report]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="81" y="1" width="99" height="44" backcolor="#D1E6DA" uuid="0a77ac63-7271-4675-9c36-f71ad0e32e1a"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sl. No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="280" y="1" width="100" height="44" backcolor="#D1E6DA" uuid="7e59faa6-8201-452a-aa1d-29b790f626f2"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="1" width="100" height="44" backcolor="#D1E6DA" uuid="cce59beb-203b-44dc-bd8e-3cb493cfc20c"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[District Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="380" y="1" width="100" height="44" backcolor="#D1E6DA" uuid="c981d92d-e59f-4a1c-bbe1-c847d52fe407"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[District Code
+]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="44" splitType="Stretch">
+			<textField>
+				<reportElement mode="Opaque" x="280" y="0" width="100" height="44" backcolor="#F7F7F7" uuid="ad0f2a31-2e28-4e6c-88b9-cef490e81858">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dc98b684-6348-4f43-aa2e-b1f50c842aa0"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{isActive} == true ? "Active" : "InActive"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="180" y="0" width="100" height="44" backcolor="#F7F7F7" uuid="c5fe0544-2220-472d-8dd8-527c42cd105b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d6db0da4-ac6a-4b63-b5b2-cd2421766037"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{districtName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="380" y="0" width="100" height="44" backcolor="#F7F7F7" uuid="5731c66b-4213-48d0-8e4f-9599180e5786">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5d7a86cf-d57e-4197-a6cb-e5b9fec9ad33"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{districtCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="81" y="0" width="99" height="44" backcolor="#F7F7F7" uuid="d93fcf20-48bd-4eab-811e-5c675842fe18"/>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

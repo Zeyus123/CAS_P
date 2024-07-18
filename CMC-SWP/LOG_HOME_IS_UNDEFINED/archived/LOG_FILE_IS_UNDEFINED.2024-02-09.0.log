@@ -1,0 +1,91 @@
+2024-02-09 09:34:49 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-09 11:27:18 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 11:27:18 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 11:27:18 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 11:27:46 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 11:27:55 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 37.215 seconds (JVM running for 82291.061)
+2024-02-09 12:06:55 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 12:06:55 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 12:06:55 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 12:07:14 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 12:07:22 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 26.919 seconds (JVM running for 84658.067)
+2024-02-09 12:10:35 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 12:10:35 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 12:10:35 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 12:10:41 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 12:10:48 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 13.233 seconds (JVM running for 84864.748)
+2024-02-09 12:13:17 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 12:13:17 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 12:13:17 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 12:13:24 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 12:13:32 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 14.761 seconds (JVM running for 85028.283)
+2024-02-09 12:25:25 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 12:25:25 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 12:25:25 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 12:25:31 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 12:25:39 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 13.936 seconds (JVM running for 85755.379)
+2024-02-09 12:26:49 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 12:26:49 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 12:26:49 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 12:26:55 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 12:27:02 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 12.905 seconds (JVM running for 85838.674)
+2024-02-09 12:27:42 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 12:27:42 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 12:27:42 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 12:27:48 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 12:27:55 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 12.916 seconds (JVM running for 85891.674)
+2024-02-09 12:47:28 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-09 12:47:30 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-09 12:47:34 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-09 12:47:35 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-09 12:47:35 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-09 12:50:34 [http-nio-6363-exec-2] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/satff/college-list
+2024-02-09 12:50:34 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-09 12:56:01 [http-nio-6363-exec-6] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/staff/getStaffDtlsWithHighstQlfcn
+2024-02-09 12:56:44 [http-nio-6363-exec-3] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/staff/getStaffDtlsWithHighstQlfcn
+2024-02-09 12:57:05 [http-nio-6363-exec-7] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/staff/getStaffDtlsWithHighstQlfcn
+2024-02-09 12:57:16 [http-nio-6363-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - logException 199 : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Long parameter 'collegeId' is not present]
+2024-02-09 12:58:06 [http-nio-6363-exec-10] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - logExceptions 142 : ERROR: function date(bytea) does not exist
+  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
+  Position: 1037
+2024-02-09 13:05:19 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 13:05:19 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 13:05:19 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 13:05:38 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 13:05:55 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 35.634 seconds (JVM running for 88171.537)
+2024-02-09 15:38:23 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 15:38:23 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 15:38:23 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 15:38:29 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 15:38:37 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 13.672 seconds (JVM running for 97333.19)
+2024-02-09 15:38:50 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 15:38:50 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 15:38:50 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 15:38:56 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 15:39:03 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 12.819 seconds (JVM running for 97359.435)
+2024-02-09 15:40:05 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 15:40:05 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 15:40:05 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 15:40:11 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 15:40:18 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 13.497 seconds (JVM running for 97434.816)
+2024-02-09 15:40:27 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 15:40:27 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 15:40:27 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 15:40:33 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 15:40:40 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 12.709 seconds (JVM running for 97456.705)
+2024-02-09 15:41:15 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 15:41:15 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 15:41:15 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 15:41:21 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 15:41:28 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 13.068 seconds (JVM running for 97504.541)
+2024-02-09 15:44:52 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 9292 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-09 15:44:52 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-09 15:44:52 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-09 15:44:59 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-09 15:45:08 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 16.681 seconds (JVM running for 97724.738)
+2024-02-09 18:41:21 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-09 18:41:21 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-09 18:41:23 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-09 18:41:25 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-09 18:41:26 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-09 18:41:26 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created

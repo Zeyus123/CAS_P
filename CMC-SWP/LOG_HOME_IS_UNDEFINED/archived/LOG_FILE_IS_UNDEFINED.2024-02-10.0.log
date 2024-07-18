@@ -1,0 +1,73 @@
+2024-02-10 09:43:48 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-10 09:43:48 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-10 10:08:11 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-10 10:08:11 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-10 10:08:15 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-10 10:08:15 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-10 10:08:15 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-10 11:15:54 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 12744 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-10 11:15:54 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-10 11:15:54 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-10 11:16:04 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-02-10 11:16:04 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-02-10 11:16:04 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-02-10 11:16:04 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-02-10 11:16:09 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-10 11:16:20 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 25.983 seconds (JVM running for 27.322)
+2024-02-10 11:16:29 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-10 11:16:33 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-10 11:16:40 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-10 11:16:43 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-10 11:16:52 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-10 11:16:53 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-10 11:16:53 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-10 15:53:53 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 16300 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-10 15:53:53 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-10 15:53:53 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-10 15:54:21 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-02-10 15:54:21 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-02-10 15:54:21 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-02-10 15:54:21 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-02-10 15:54:26 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-10 15:54:35 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 42.267 seconds (JVM running for 43.823)
+2024-02-10 15:55:31 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-10 15:55:35 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-10 15:55:39 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-10 15:55:39 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-10 15:55:39 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created

@@ -1,0 +1,1417 @@
+2023-12-21 09:36:33 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 09:38:41 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 09:38:42 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 09:38:46 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 09:38:47 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 09:38:47 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 09:40:06 [http-nio-6363-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - logExceptions 142 : ERROR: column coursemast0_.eff_from does not exist
+  Position: 489
+2023-12-21 09:40:06 [http-nio-6363-exec-7] ERROR c.a.p.h.s.CousreManagementServiceImpl - findAllStream 106 : Getting error at CousreMgmtMasterServiceImpl in findAllStream()could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2023-12-21 09:40:07 [http-nio-6363-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - logExceptions 142 : ERROR: column coursemast0_.eff_from does not exist
+  Position: 469
+2023-12-21 09:40:07 [http-nio-6363-exec-7] ERROR c.a.p.h.s.CousreManagementServiceImpl - findAllCourse 65 : Getting Error at CousreMgmtMasterServiceImpl in findAllCoursecould not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2023-12-21 09:40:29 [http-nio-6363-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - logExceptions 142 : Bad value for type timestamp/date/time: {1}
+2023-12-21 09:40:29 [http-nio-6363-exec-2] ERROR c.a.p.h.s.CousreManagementServiceImpl - findAllBatch 147 : Getting error at CousreMgmtMasterServiceImpl in findAllBatchcould not execute query; SQL [select batchmaste0_.batch_id as batch_id1_21_, batchmaste0_.created_by as created_9_21_, batchmaste0_.created_on as created_2_21_, batchmaste0_.last_updated_by as last_up10_21_, batchmaste0_.last_updated_on as last_upd3_21_, batchmaste0_.batch_name as batch_na4_21_, batchmaste0_.course_id as course_11_21_, batchmaste0_.end_year as end_year5_21_, batchmaste0_.is_active as is_activ6_21_, batchmaste0_.start_date as start_da7_21_, batchmaste0_.start_year as start_ye8_21_ from t_crs_mst_batch_master batchmaste0_]; nested exception is org.hibernate.exception.DataException: could not execute query
+2023-12-21 09:41:22 [http-nio-6363-exec-10] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - logExceptions 142 : ERROR: relation "t_crs_assignsubject" does not exist
+  Position: 354
+2023-12-21 09:41:22 [http-nio-6363-exec-10] ERROR c.a.p.h.s.CousreManagementServiceImpl - findAllAssignSubject 302 : Getting error at CousreMgmtMasterServiceImpl in findAllAssignSubjectcould not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2023-12-21 09:59:34 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 09:59:34 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 09:59:34 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 09:59:58 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 09:59:58 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 09:59:58 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 10:01:57 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 10:01:57 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 10:02:00 [http-nio-6363-exec-6] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 10:03:23 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 10:04:50 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 10:06:16 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 10:06:16 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.CustomLoginController - doLogin 154 : Bad Credentials - Invalid password
+2023-12-21 10:06:18 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 10:17:46 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 10:17:46 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 10:17:46 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 10:32:39 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 10:48:40 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 11:28:04 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 11:28:04 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:28:13 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 11:28:13 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 154 : Bad Credentials - Invalid password
+2023-12-21 11:28:15 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:28:56 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:29:03 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 11:29:03 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.CustomLoginController - doLogin 154 : Bad Credentials - Invalid password
+2023-12-21 11:29:05 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:29:37 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:29:43 [http-nio-6363-exec-6] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 11:29:43 [http-nio-6363-exec-6] DEBUG c.a.p.h.c.CustomLoginController - doLogin 154 : Bad Credentials - Invalid password
+2023-12-21 11:29:45 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:30:00 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:30:06 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 11:30:06 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 154 : Bad Credentials - Invalid password
+2023-12-21 11:30:08 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:30:40 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:30:43 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:30:49 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 11:30:49 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.CustomLoginController - doLogin 154 : Bad Credentials - Invalid password
+2023-12-21 11:30:51 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:34:08 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 11:34:09 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 11:34:09 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 11:34:42 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 11:34:56 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 48.153 seconds (JVM running for 235853.885)
+2023-12-21 11:35:22 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 11:39:53 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 107 : The account is locked.
+2023-12-21 11:39:55 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:03:37 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:03:45 [http-nio-6363-exec-6] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 12:03:45 [http-nio-6363-exec-6] ERROR c.a.p.h.c.CustomLoginController - doLogin 214 : org.springframework.context.NoSuchMessageException: No message found under code 'login.account.incorrect' for locale 'en_US'.
+org.springframework.context.NoSuchMessageException: No message found under code 'login.account.incorrect' for locale 'en_US'.
+	at org.springframework.context.support.AbstractMessageSource.getMessage(AbstractMessageSource.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1316)
+	at com.aashdit.prod.heads.controller.CustomLoginController.doLogin(CustomLoginController.java:153)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.aashdit.prod.heads.security.XSSFilter.doFilter(XSSFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.aashdit.prod.heads.security.JwtFilter.doFilterInternal(JwtFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-12-21 12:03:45 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:03:48 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:04:02 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 12:04:02 [http-nio-6363-exec-3] ERROR c.a.p.h.c.CustomLoginController - doLogin 214 : org.springframework.context.NoSuchMessageException: No message found under code 'login.account.incorrect' for locale 'en_US'.
+org.springframework.context.NoSuchMessageException: No message found under code 'login.account.incorrect' for locale 'en_US'.
+	at org.springframework.context.support.AbstractMessageSource.getMessage(AbstractMessageSource.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1316)
+	at com.aashdit.prod.heads.controller.CustomLoginController.doLogin(CustomLoginController.java:153)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.aashdit.prod.heads.security.XSSFilter.doFilter(XSSFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.aashdit.prod.heads.security.JwtFilter.doFilterInternal(JwtFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-12-21 12:04:02 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:04:17 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 12:04:17 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 12:04:17 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 12:04:33 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 12:04:39 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 22.788 seconds (JVM running for 237637.54)
+2023-12-21 12:04:44 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:04:48 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 12:04:48 [http-nio-6363-exec-4] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 12:04:48 [http-nio-6363-exec-4] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 12:05:38 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 12:05:38 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 12:05:39 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:05:45 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 12:05:45 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.CustomLoginController - doLogin 154 : Bad Credentials - Invalid password
+2023-12-21 12:05:47 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:05:58 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 12:05:59 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 12:05:59 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 12:08:52 [http-nio-6363-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - logExceptions 142 : ERROR: null value in column "primary_role_id" violates not-null constraint
+  Detail: Failing row contains (21, PRADYUMNA, $2a$10$.if.6RUGxBhBL9gbZB6bQuTf6HGuoohjAVCGL.JgUb2f/NeT/Ovfi, Pradyumna, Samal, null, 2023-12-21 12:08:52.028, 7878787878, pradyumna.samal@aashdit.com, t, 4, 2023-12-21 12:08:52.028, f, t, f, f, 0, null, null, 4, null, Developer, null, null).
+2023-12-21 12:08:52 [http-nio-6363-exec-6] ERROR c.a.p.h.service.umt.UserServiceImpl - addUser 464 : org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [primary_role_id]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [primary_role_id]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:298)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy18933.save(Unknown Source)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl.addUser(UserServiceImpl.java:382)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl$$FastClassBySpringCGLIB$$8aad748e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl$$EnhancerBySpringCGLIB$$193b20aa.addUser(<generated>)
+	at com.aashdit.prod.heads.controller.umt.UserController.addUser(UserController.java:273)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.aashdit.prod.heads.security.XSSFilter.doFilter(XSSFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.aashdit.prod.heads.security.JwtFilter.doFilterInternal(JwtFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:109)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3152)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3756)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:718)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:704)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy18931.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 110 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "primary_role_id" violates not-null constraint
+  Detail: Failing row contains (21, PRADYUMNA, $2a$10$.if.6RUGxBhBL9gbZB6bQuTf6HGuoohjAVCGL.JgUb2f/NeT/Ovfi, Pradyumna, Samal, null, 2023-12-21 12:08:52.028, 7878787878, pradyumna.samal@aashdit.com, t, 4, 2023-12-21 12:08:52.028, f, t, f, f, 0, null, null, 4, null, Developer, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2267)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:312)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:448)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:369)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:153)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:119)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 154 common frames omitted
+2023-12-21 12:08:52 [http-nio-6363-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - log 175 : Servlet.service() for servlet [dispatcherServlet] in context with path [/heads] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only] with root cause
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:752)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:632)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl$$EnhancerBySpringCGLIB$$193b20aa.addUser(<generated>)
+	at com.aashdit.prod.heads.controller.umt.UserController.addUser(UserController.java:273)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.aashdit.prod.heads.security.XSSFilter.doFilter(XSSFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.aashdit.prod.heads.security.JwtFilter.doFilterInternal(JwtFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-12-21 12:14:57 [http-nio-6363-exec-9] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - logExceptions 142 : ERROR: null value in column "primary_role_id" violates not-null constraint
+  Detail: Failing row contains (22, PRADYUMNA, $2a$10$zuPqiuMaLeOy7fm5td4HsOkxc1rdtENc2DVguycHl1Jo9Ziwukbwi, Pradyumna, Samal, null, 2023-12-21 12:14:53.333, 7878787878, pradyumna.samal@aashdit.com, t, 4, 2023-12-21 12:14:41.117, f, t, f, f, 0, null, null, 4, null, Developer, null, null).
+2023-12-21 12:33:43 [http-nio-6363-exec-9] ERROR c.a.p.h.service.umt.UserServiceImpl - addUser 464 : org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [primary_role_id]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [primary_role_id]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:298)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy18933.save(Unknown Source)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl.addUser(UserServiceImpl.java:382)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl$$FastClassBySpringCGLIB$$8aad748e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl$$EnhancerBySpringCGLIB$$193b20aa.addUser(<generated>)
+	at com.aashdit.prod.heads.controller.umt.UserController.addUser(UserController.java:273)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.aashdit.prod.heads.security.XSSFilter.doFilter(XSSFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.aashdit.prod.heads.security.JwtFilter.doFilterInternal(JwtFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:109)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3152)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3756)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:718)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:704)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy18931.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 110 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: null value in column "primary_role_id" violates not-null constraint
+  Detail: Failing row contains (22, PRADYUMNA, $2a$10$zuPqiuMaLeOy7fm5td4HsOkxc1rdtENc2DVguycHl1Jo9Ziwukbwi, Pradyumna, Samal, null, 2023-12-21 12:14:53.333, 7878787878, pradyumna.samal@aashdit.com, t, 4, 2023-12-21 12:14:41.117, f, t, f, f, 0, null, null, 4, null, Developer, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2267)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:312)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:448)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:369)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:153)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:119)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 154 common frames omitted
+2023-12-21 12:33:44 [http-nio-6363-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - log 175 : Servlet.service() for servlet [dispatcherServlet] in context with path [/heads] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only] with root cause
+org.springframework.transaction.UnexpectedRollbackException: Transaction silently rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:752)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:632)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.aashdit.prod.heads.service.umt.UserServiceImpl$$EnhancerBySpringCGLIB$$193b20aa.addUser(<generated>)
+	at com.aashdit.prod.heads.controller.umt.UserController.addUser(UserController.java:273)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.aashdit.prod.heads.security.XSSFilter.doFilter(XSSFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.aashdit.prod.heads.security.JwtFilter.doFilterInternal(JwtFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:141)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-12-21 12:34:12 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 383 : Saved User in DB
+2023-12-21 12:34:12 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 391 : Pass Step 1
+2023-12-21 12:34:12 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 398 : Current Role Id from UI is 100
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 400 : 0
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 401 : -- 2.1
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 407 : -- 2.2
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 409 : -- No limit on assignments
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 414 : -- 2.4.a
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 416 : -- 2.5.a
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 419 : -- 2.6.a
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 422 : -- 2.7.a
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 456 : -- 5.1
+2023-12-21 12:34:13 [http-nio-6363-exec-10] DEBUG c.a.p.h.service.umt.UserServiceImpl - addUser 459 : -- 5.2
+2023-12-21 12:34:49 [http-nio-6363-exec-4] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 12:34:50 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 12:34:50 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:34:59 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.CustomLoginController - doLogin 198 : Bad Credentials - No user found
+2023-12-21 12:34:59 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:35:33 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.CustomLoginController - doLogin 198 : Bad Credentials - No user found
+2023-12-21 12:35:34 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:36:23 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 12:36:23 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 12:36:23 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 12:36:35 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 12:36:41 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 18.518 seconds (JVM running for 239559.489)
+2023-12-21 12:36:42 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:37:15 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.CustomLoginController - doLogin 198 : Bad Credentials - No user found
+2023-12-21 12:37:15 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:38:32 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.CustomLoginController - doLogin 198 : Bad Credentials - No user found
+2023-12-21 12:38:33 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:38:55 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2023-12-21 12:38:55 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 12:38:55 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 12:39:57 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 12:39:57 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 12:39:57 [http-nio-6363-exec-4] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:41:00 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:41:37 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 12:45:34 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 12:45:34 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 12:45:34 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 12:45:44 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 12:45:49 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes\com\aashdit\prod\heads\controller\HomeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+2023-12-21 12:45:49 [restartedMain] ERROR o.s.boot.SpringApplication - reportFailure 837 : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes\com\aashdit\prod\heads\controller\HomeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.aashdit.prod.heads.application.HEADSApplication.main(HEADSApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:217)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 23 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at com.aashdit.prod.heads.controller.HomeController.<init>(HomeController.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	... 25 common frames omitted
+2023-12-21 13:22:38 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:22:38 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:22:38 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:22:51 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 13:51:30 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes\com\aashdit\prod\heads\controller\HomeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+2023-12-21 13:51:30 [Catalina-utility-1] ERROR o.a.c.c.C.[.[localhost].[/heads] - log 175 : Session event listener threw exception
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'delegatingApplicationListener': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:212)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.security.web.session.HttpSessionEventPublisher.sessionDestroyed(HttpSessionEventPublisher.java:91)
+	at org.apache.catalina.session.StandardSession.expire(StandardSession.java:798)
+	at org.apache.catalina.session.StandardSession.isValid(StandardSession.java:656)
+	at org.apache.catalina.session.ManagerBase.processExpires(ManagerBase.java:606)
+	at org.apache.catalina.session.ManagerBase.backgroundProcess(ManagerBase.java:591)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5536)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023-12-21 13:51:30 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2023-12-21 13:51:30 [restartedMain] ERROR o.s.boot.SpringApplication - reportFailure 837 : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes\com\aashdit\prod\heads\controller\HomeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.aashdit.prod.heads.application.HEADSApplication.main(HEADSApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:217)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 23 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at com.aashdit.prod.heads.controller.HomeController.<init>(HomeController.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	... 25 common frames omitted
+2023-12-21 13:53:01 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:53:01 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:53:01 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:53:14 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 13:53:19 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes\com\aashdit\prod\heads\controller\HomeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+2023-12-21 13:53:19 [restartedMain] ERROR o.s.boot.SpringApplication - reportFailure 837 : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes\com\aashdit\prod\heads\controller\HomeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.aashdit.prod.heads.application.HEADSApplication.main(HEADSApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aashdit.prod.heads.controller.HomeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:217)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 23 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	CommonMasterService cannot be resolved to a type
+	CommonMasterService cannot be resolved to a type
+
+	at com.aashdit.prod.heads.controller.HomeController.<init>(HomeController.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	... 25 common frames omitted
+2023-12-21 13:55:18 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:55:18 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:55:18 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:55:27 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - onStartup 61 : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'jwtUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.aashdit.prod.heads.repository.umt.UserRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot create inner bean '(inner bean)#2adc1139' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2adc1139': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.TypeNotPresentException: Type Auditable not present
+2023-12-21 13:55:27 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2023-12-21 13:55:29 [restartedMain] ERROR o.s.boot.SpringApplication - reportFailure 837 : Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.aashdit.prod.heads.application.HEADSApplication.main(HEADSApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'jwtUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.aashdit.prod.heads.repository.umt.UserRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot create inner bean '(inner bean)#2adc1139' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2adc1139': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.TypeNotPresentException: Type Auditable not present
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:255)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:229)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5128)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:468)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtUtil': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.aashdit.prod.heads.repository.umt.UserRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot create inner bean '(inner bean)#2adc1139' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2adc1139': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.TypeNotPresentException: Type Auditable not present
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 60 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.aashdit.prod.heads.repository.umt.UserRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot create inner bean '(inner bean)#2adc1139' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2adc1139': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.TypeNotPresentException: Type Auditable not present
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 73 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.aashdit.prod.heads.repository.umt.UserRepository defined in @EnableJpaRepositories declared on HEADSApplication: Cannot create inner bean '(inner bean)#2adc1139' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2adc1139': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.TypeNotPresentException: Type Auditable not present
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:389)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 86 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2adc1139': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.TypeNotPresentException: Type Auditable not present
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:690)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:507)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:374)
+	... 99 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.TypeNotPresentException: Type Auditable not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 107 common frames omitted
+Caused by: java.lang.TypeNotPresentException: Type Auditable not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperclass(ClassRepository.java:104)
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperclass(ClassRepository.java:86)
+	at java.base/java.lang.Class.getGenericSuperclass(Class.java:1026)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory.createSuperTypeEnvironment(TypeEnvironmentFactory.java:78)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory.access$000(TypeEnvironmentFactory.java:21)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory$1.caseClass(TypeEnvironmentFactory.java:54)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory$1.caseClass(TypeEnvironmentFactory.java:50)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeSwitch.doSwitch(TypeSwitch.java:25)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory.createEnvironment(TypeEnvironmentFactory.java:68)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory.getEnvironment(TypeEnvironmentFactory.java:31)
+	at org.hibernate.annotations.common.reflection.java.JavaReflectionManager$2.caseClass(JavaReflectionManager.java:191)
+	at org.hibernate.annotations.common.reflection.java.JavaReflectionManager$2.caseClass(JavaReflectionManager.java:188)
+	at org.hibernate.annotations.common.reflection.java.generics.TypeSwitch.doSwitch(TypeSwitch.java:25)
+	at org.hibernate.annotations.common.reflection.java.JavaReflectionManager.getTypeEnvironment(JavaReflectionManager.java:203)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getSuperclass(JavaXClass.java:46)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.insertMappedSuperclasses(AnnotationMetadataSourceProcessorImpl.java:275)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.orderAndFillHierarchy(AnnotationMetadataSourceProcessorImpl.java:261)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:241)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:230)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:273)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 114 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Auditable
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 145 common frames omitted
+2023-12-21 13:55:35 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:55:35 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:55:35 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:55:47 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 13:55:52 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'forgotPasswordServiceImpl': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServiceImpl': Unsatisfied dependency expressed through field 'mailQueuedRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-21 13:55:53 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - report 40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailQueuedRepository in com.aashdit.prod.heads.service.umt.MailServiceImpl required a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' in your configuration.
+
+2023-12-21 13:56:16 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:56:16 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:56:16 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:56:28 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 13:56:30 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'forgotPasswordService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'forgotPasswordServiceImpl': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServiceImpl': Unsatisfied dependency expressed through field 'mailQueuedRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-21 13:56:30 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - report 40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailQueuedRepository in com.aashdit.prod.heads.service.umt.MailServiceImpl required a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' in your configuration.
+
+2023-12-21 13:57:10 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:57:10 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:57:10 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:57:23 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 13:57:26 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'forgotPasswordService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'forgotPasswordServiceImpl': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServiceImpl': Unsatisfied dependency expressed through field 'mailQueuedRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-21 13:57:26 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - report 40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailQueuedRepository in com.aashdit.prod.heads.service.umt.MailServiceImpl required a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' in your configuration.
+
+2023-12-21 13:57:38 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:57:38 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:57:38 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:57:53 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 13:57:59 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - refresh 559 : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController': Unsatisfied dependency expressed through field 'forgotPasswordService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'forgotPasswordServiceImpl': Unsatisfied dependency expressed through field 'mailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailServiceImpl': Unsatisfied dependency expressed through field 'mailQueuedRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-21 13:58:00 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - report 40 : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mailQueuedRepository in com.aashdit.prod.heads.service.umt.MailServiceImpl required a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.aashdit.prod.heads.repository.umt.MailQueuedRepository' in your configuration.
+
+2023-12-21 13:58:03 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:58:03 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:58:03 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 13:58:17 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 13:58:24 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 20.845 seconds (JVM running for 244461.957)
+2023-12-21 13:59:56 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 13:59:56 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 13:59:56 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 14:00:06 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 14:00:11 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 15.163 seconds (JVM running for 244568.951)
+2023-12-21 14:03:22 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 14:03:22 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 14:03:22 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 14:03:45 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 14:04:03 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 41.77 seconds (JVM running for 244801.417)
+2023-12-21 14:07:37 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 14:07:37 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 14:07:37 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 14:10:12 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 14:11:26 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 230.818 seconds (JVM running for 245244.192)
+2023-12-21 14:14:06 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 14:14:06 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 14:14:06 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 14:14:20 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 14:14:26 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 20.785 seconds (JVM running for 245424.558)
+2023-12-21 14:14:44 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 14:14:44 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 14:14:44 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 14:14:56 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 14:15:05 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 21.15 seconds (JVM running for 245463.13)
+2023-12-21 14:56:49 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 8248 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2023-12-21 14:56:49 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2023-12-21 14:56:49 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: test
+2023-12-21 14:57:04 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2023-12-21 14:57:09 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 20.299 seconds (JVM running for 247986.887)
+2023-12-21 15:00:12 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2023-12-21 15:00:12 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 15:00:47 [http-nio-6363-exec-8] ERROR org.apache.velocity - log 96 : ResourceManager : unable to find resource './template/passwordResetTemplate.vm' in any resource loader.
+2023-12-21 15:00:47 [http-nio-6363-exec-8] ERROR c.a.p.h.service.umt.MailServiceImpl - mailPasswordDetails 93 : Exception occured in mailPasswordDetails method in MailServiceImpl-->Unable to find resource './template/passwordResetTemplate.vm'
+2023-12-21 15:00:47 [http-nio-6363-exec-8] ERROR c.a.p.h.s.u.ForgotPasswordServiceImpl - forgotPassword 67 : Exception occured in forgotPassword method in ForgotPasswordServiceImpl-->No message found under code 'site.common.passwordFailed' for locale 'en_US'.
+2023-12-21 15:00:48 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 15:16:22 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 15:20:33 [http-nio-6363-exec-10] ERROR org.apache.velocity - log 96 : ResourceManager : unable to find resource './template/passwordResetTemplate.vm' in any resource loader.
+2023-12-21 15:20:33 [http-nio-6363-exec-10] ERROR c.a.p.h.service.umt.MailServiceImpl - mailPasswordDetails 93 : Exception occured in mailPasswordDetails method in MailServiceImpl-->Unable to find resource './template/passwordResetTemplate.vm'
+2023-12-21 15:25:52 [http-nio-6363-exec-10] ERROR c.a.p.h.s.u.ForgotPasswordServiceImpl - forgotPassword 67 : Exception occured in forgotPassword method in ForgotPasswordServiceImpl-->No message found under code 'site.common.passwordFailed' for locale 'en_US'.
+2023-12-21 15:25:53 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2023-12-21 15:27:20 [http-nio-6363-exec-8] ERROR org.apache.velocity - log 96 : ResourceManager : unable to find resource './template/passwordResetTemplate.vm' in any resource loader.

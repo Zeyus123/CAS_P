@@ -1,0 +1,30 @@
+2024-02-03 09:29:23 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 09:53:34 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 09:53:34 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-03 09:55:55 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-03 09:55:56 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 09:55:56 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 10:26:49 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 10:46:13 [http-nio-6363-exec-11] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 10:46:14 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-03 10:46:18 [http-nio-6363-exec-12] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-03 10:46:18 [http-nio-6363-exec-12] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 10:46:18 [http-nio-6363-exec-12] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 11:26:35 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 11:27:37 [http-nio-6363-exec-11] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 11:27:37 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-03 11:27:41 [http-nio-6363-exec-12] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-03 11:27:41 [http-nio-6363-exec-12] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 11:27:41 [http-nio-6363-exec-12] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 12:26:38 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 15:07:10 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 15:07:18 [http-nio-6363-exec-12] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-03 15:07:57 [http-nio-6363-exec-11] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-03 15:07:57 [http-nio-6363-exec-11] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 15:07:57 [http-nio-6363-exec-11] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 17:44:24 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 18:59:38 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-03 18:59:39 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-03 18:59:44 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-03 18:59:45 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-03 18:59:45 [http-nio-6363-exec-10] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created

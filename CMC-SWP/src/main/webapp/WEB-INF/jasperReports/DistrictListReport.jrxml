@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DistrictListReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3b0f4bdf-eae8-4e96-9061-4bbb3aa2999c">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="HeadsCoreLocal"/>
+	<queryString language="SQL">
+		<![CDATA[select * from t_mst_district d
+join  t_mst_state s on s.state_id = d.state_id
+order by  d.district_name]]>
+	</queryString>
+	<field name="district_id" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="district_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="district_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="district_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="district_name"/>
+		<property name="com.jaspersoft.studio.field.label" value="district_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="is_active" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.name" value="is_active"/>
+		<property name="com.jaspersoft.studio.field.label" value="is_active"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="district_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="district_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="district_code"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="created_by" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="created_by"/>
+		<property name="com.jaspersoft.studio.field.label" value="created_by"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="created_on" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="created_on"/>
+		<property name="com.jaspersoft.studio.field.label" value="created_on"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="last_updated_by" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="last_updated_by"/>
+		<property name="com.jaspersoft.studio.field.label" value="last_updated_by"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="last_updated_on" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="last_updated_on"/>
+		<property name="com.jaspersoft.studio.field.label" value="last_updated_on"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="state_id" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="state_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="state_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_district"/>
+	</field>
+	<field name="COLUMN_10" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="state_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="state_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="COLUMN_11" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="created_on"/>
+		<property name="com.jaspersoft.studio.field.label" value="created_on"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="COLUMN_12" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="last_updated_on"/>
+		<property name="com.jaspersoft.studio.field.label" value="last_updated_on"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="COLUMN_13" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.name" value="is_active"/>
+		<property name="com.jaspersoft.studio.field.label" value="is_active"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="state_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="state_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="state_code"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="state_name_en" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="state_name_en"/>
+		<property name="com.jaspersoft.studio.field.label" value="state_name_en"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="state_name_hi" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="state_name_hi"/>
+		<property name="com.jaspersoft.studio.field.label" value="state_name_hi"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="COLUMN_17" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="created_by"/>
+		<property name="com.jaspersoft.studio.field.label" value="created_by"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<field name="COLUMN_18" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="last_updated_by"/>
+		<property name="com.jaspersoft.studio.field.label" value="last_updated_by"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="t_mst_state"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="4" width="550" height="30" uuid="0ad6f634-abe4-46cb-9bb3-c7daf0dc778d"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[District List Reports]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="81" y="0" width="99" height="34" backcolor="#D1E6DA" uuid="d00964ea-6abc-444f-8e33-7d6a867e7c90"/>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sl. No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="0" width="100" height="34" backcolor="#D1E6DA" uuid="11cd255c-f5c4-44e0-bb55-1de54b726313"/>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[District Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="280" y="0" width="100" height="34" backcolor="#D1E6DA" uuid="72e3451f-9b95-4010-a67d-0604857631ee"/>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="380" y="0" width="100" height="34" backcolor="#D1E6DA" uuid="13d8c173-e090-47df-9dcc-6befc8d35f7c"/>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[State Name]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement mode="Opaque" x="81" y="-1" width="99" height="35" backcolor="#F7F7F7" uuid="632e5375-43c3-416a-b9ce-d5cd3a3b2d03"/>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="180" y="-1" width="100" height="35" backcolor="#F7F7F7" uuid="bd6b1d8a-078f-4eed-ae2c-a0352d8d0ea0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d6db0da4-ac6a-4b63-b5b2-cd2421766037"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{district_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="280" y="-1" width="100" height="35" backcolor="#F7F7F7" uuid="63ebb4ee-23d4-48bb-a979-b8f25e52751a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dc98b684-6348-4f43-aa2e-b1f50c842aa0"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{is_active} == true ? "Active" : "InActive"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="380" y="-1" width="100" height="35" backcolor="#F7F7F7" uuid="bbbf10c0-caff-4ee6-8fd2-35962055871d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5d7a86cf-d57e-4197-a6cb-e5b9fec9ad33"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{state_name_en}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="38" splitType="Stretch"/>
+	</summary>
+</jasperReport>

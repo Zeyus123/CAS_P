@@ -1,0 +1,33 @@
+2024-02-15 09:33:49 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-15 09:34:06 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-15 09:34:08 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 09:34:12 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-15 09:34:12 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-15 09:34:12 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-15 18:31:48 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 7544 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-02-15 18:31:48 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-02-15 18:31:48 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-02-15 18:32:35 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-02-15 18:32:43 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - startServer 61 : Unable to start LiveReload server
+2024-02-15 18:32:43 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 55.217 seconds (JVM running for 196605.9)
+2024-02-15 18:34:32 [http-nio-6363-exec-10] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:34:37 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:34:40 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:46:25 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:46:50 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:47:25 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-15 18:47:25 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-15 18:47:25 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-15 18:47:59 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-15 18:47:59 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-15 18:47:59 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:54:12 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:54:18 [http-nio-6363-exec-6] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-02-15 18:54:19 [http-nio-6363-exec-6] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-15 18:54:19 [http-nio-6363-exec-6] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-15 18:56:38 [http-nio-6363-exec-6] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-02-15 18:56:39 [http-nio-6363-exec-4] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-15 18:56:39 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:57:05 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-02-15 18:58:15 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-02-15 18:58:15 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s

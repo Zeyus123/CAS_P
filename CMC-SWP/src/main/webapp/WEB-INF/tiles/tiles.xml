@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- template-outside-layout -->
+	<definition name="template-def" template="/WEB-INF/views/layout/default/defaultLayout.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/layout/default/header.jsp" />
+		<put-attribute name= "body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout/default/footer.jsp" />
+	</definition>
+
+  	<definition name="layout.base" template="/WEB-INF/views/layout/baselayout.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+		<put-attribute name="pageScripts" value=" " />
+	</definition>
+	
+	<definition name="template-blank" template="/WEB-INF/views/layout/blankLayout.jsp">
+		<put-attribute name="body" value="" />
+	</definition>
+	
+	<definition name="error.layout" template="/WEB-INF/views/layout/errorLayout.jsp">
+		<put-attribute name="title" value="kaushalya" />
+		<put-attribute name="body" value="" />
+	</definition>
+	
+	<definition name="layout.login" template="/WEB-INF/views/login.jsp"></definition>
+	<definition name="site.session.timeout" template="/WEB-INF/views/nosession.jsp"></definition>
+	<definition name="site.privacy.policy" template="/WEB-INF/views/privacyPolicy.jsp"></definition>
+	
+	<!-- BEG Home for various Roles -->
+	<definition name="site.system.home" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/dashboard/system.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="site.admin.home" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/dashboard/dashboard.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="site.deo.home" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/dashboard/dashboard.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="site.cdpo.home" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/dashboard/dashboard.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="site.dswo.home" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/dashboard/dashboard.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="site.sa.home" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/dashboard/dashboard.jsp"></put-attribute>
+	</definition>
+	
+	
+	<!-- END Home for various Roles -->
+	<!-- Administartion Module -->
+	<definition name="site.admin.user.acl.configure"  extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/configureACL.jsp"></put-attribute>
+	</definition>
+
+	<definition name="site.admin.acl.list" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/listACL.jsp"></put-attribute>
+	</definition>
+
+	<definition name="sysAdmin.setup.module" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/system/listModules.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="sysAdmin.setup.module.add" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/system/addModule.jsp"> </put-attribute>
+	</definition>
+	
+	<definition name="site.addBank" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/masters/addBankMaster.jsp"> </put-attribute>
+	</definition>
+
+	<!-- User Management -->
+
+	<definition name="site.umt.userProfile" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/umt/userProfile.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="site.umt.public.registration" extends="template-def">
+		<put-attribute name="body" value="/WEB-INF/views/umt/userRegistration.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="site.umt.changePassword" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/umt/changePassword.jsp"></put-attribute>
+	</definition>
+
+	<definition name="site.umt.userList" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/umt/userList.jsp"></put-attribute>
+	</definition>
+
+	<definition name="site.umt.addUser" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/umt/addUser.jsp"></put-attribute>
+	</definition>
+
+	<definition name="site.umt.userEdit" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/umt/userEdit.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="site.umt.userView" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/umt/userView.jsp"></put-attribute>
+	</definition>
+	<!-- sso -->
+	<definition name="application" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/sso/application.jsp"></put-attribute>
+	</definition>
+	<definition name="roleApplicationMap" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/sso/roleApplicationMap.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Core -->
+	<definition name="site.admin.roleList" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/roleList.jsp"></put-attribute>
+	</definition>
+
+	<definition name="site.admin.roleEdit" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/roleEdit.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="site.admin.roleView" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/roleView.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="site.admin.roleLevelMapList" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/roleLevelMapList.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="sysAdmin.setup.module.edit"  extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/system/editModule.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="sysAdmin.setup.menu" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/system/listMenu.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="sysAdmin.setup.menu.edit" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/system/editMenu.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="sysAdmin.setup.menu.add" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/system/addMenu.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="admin.menu.role.map" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/roleMenuMap.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="admin.menu.reorder" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/reorderMenu.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="app.home" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp"> </put-attribute>
+	</definition>
+
+	<definition name="admin.permission.map" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/menuPermissionMap.jsp"> </put-attribute>
+	</definition>
+	
+	<definition name="site.system.support" extends="template-blank">
+		<put-attribute name="body" value="/WEB-INF/views/system/support/dbPage.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="site.admin.loginHistory" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/loginHistory.jsp"></put-attribute>
+	</definition>
+	
+	  <definition name="site.admin.loginHistory" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/admin/loginHistory.jsp"></put-attribute>
+	</definition>
+	
+	
+	<!-- ================================ ERROR CONFIGURATION ====================================================== -->
+	 
+	<definition name="site.unauthorizedError" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/unauthorizedError.jsp" />
+	</definition>
+	
+	<definition name="site.accessdenied" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/403.jsp" />
+	</definition>
+
+	<definition name="site.defaultError" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/400.jsp" />
+	</definition>
+
+	<definition name="site.400" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/400.jsp" />
+	</definition> 
+	
+	 <definition name="site.401" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/401.jsp" />
+	</definition> 
+	
+	<definition name="site.403" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/403.jsp" />
+	</definition> 
+	
+	<definition name="site.404" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/404.jsp" />
+	</definition> 
+	
+	<definition name="site.405" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/405.jsp" />
+	</definition> 
+	
+	<definition name="site.500" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/500.jsp" />
+	</definition> 
+	
+	<definition name="site.503" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/503.jsp" />
+	</definition> 
+	
+	<definition name="site.unknownError" extends="error.layout">
+		<put-attribute name="body" value="/WEB-INF/views/error/unknownError.jsp" /> 
+	</definition>
+	
+	
+	
+	<!-- ================================ MASTER ====================================================== -->
+	<definition name="master.branch" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/masters/bankBranchMaster.jsp"></put-attribute>
+	</definition>
+	
+
+	<!-- ########################################Stage Config START ################################################## -->
+
+	<!-- Stage Config Tiles -->
+	<definition name="stage.config.view" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/stageConfig.jsp"/>
+	</definition>
+
+	<!-- Stage Config Tiles -->
+	<definition name="stage.config.view2" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/stageConfig2.jsp"/>
+	</definition>
+
+	<definition name="stage.config.processFlow" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/processFlow.jsp"/>
+	</definition>
+
+	<!-- site.view.tableConfig -->
+	<definition name="site.view.tableConfig" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/OptTable.jsp"/>
+	</definition>
+
+	<!-- site.view.tableConfig -->
+	<definition name="site.view.dynamicReportGenerator" extends="template-blank">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/dynamicReport.jsp"/>
+	</definition>
+
+	<!-- site.view.tableConfig -->
+	<definition name="site.view.TblComConfig" extends="template-blank">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/TblComConfig.jsp"/>
+	</definition>
+
+	<!-- site.view.hierarchy -->
+	<definition name="site.config.hierarchyView" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/hierarchy.jsp"/>
+	</definition>
+	<!-- site.view.viewPageData -->
+	<definition name="site.view.viewPageData" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/viewPageData.jsp"/>
+	</definition>
+
+	<definition name="site.genericDataViewFormat" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/genericDataViewFormat.jsp" />
+	</definition>
+
+	<definition name="site.view.createActions" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/createActions.jsp" />
+	</definition>
+
+	<definition name="site.view.roleWiseStageTabConfig" extends="layout.base">
+		<put-attribute name="body" value="/WEB-INF/views/stageConfig/roleWiseStageTabConfig.jsp" />
+	</definition>
+
+	<definition name="site.view.logView" template="/WEB-INF/views/stageConfig/logViewer.jsp"/>
+
+
+
+
+	<!-- ########################################Stage Config END ################################################## -->
+
+
+
+</tiles-definitions>
+

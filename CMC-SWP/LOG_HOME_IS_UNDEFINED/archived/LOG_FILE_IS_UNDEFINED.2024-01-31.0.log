@@ -1,0 +1,105 @@
+2024-01-31 09:34:54 [http-nio-6363-exec-6] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 09:34:56 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 09:35:27 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 09:35:27 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 09:35:27 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 10:26:48 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 10:31:27 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 10:31:28 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 10:31:33 [http-nio-6363-exec-6] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 10:31:33 [http-nio-6363-exec-6] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 10:31:33 [http-nio-6363-exec-6] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 11:22:53 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 3228 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-01-31 11:22:53 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-01-31 11:22:53 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-01-31 11:23:10 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-01-31 11:23:10 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-01-31 11:23:10 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-01-31 11:23:10 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-01-31 11:23:14 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-01-31 11:23:22 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 29.75 seconds (JVM running for 31.753)
+2024-01-31 12:12:44 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 12:12:45 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 12:12:48 [http-nio-6363-exec-8] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 12:12:48 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 12:12:48 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 13:04:41 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 13:35:23 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 13:35:24 [http-nio-6363-exec-1] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 13:35:27 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 13:35:27 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 13:35:27 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 14:44:51 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 14:44:58 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 14:44:58 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 14:45:03 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 14:45:03 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 14:45:03 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 15:24:53 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 15:44:56 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 15:44:56 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 15:45:03 [http-nio-6363-exec-2] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 15:45:03 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 15:45:03 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 16:46:02 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 17:32:50 [http-nio-6363-exec-4] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 17:32:50 [http-nio-6363-exec-5] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 17:32:52 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 17:32:53 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 17:32:53 [http-nio-6363-exec-9] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 18:17:06 [Catalina-utility-2] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 18:21:02 [http-nio-6363-exec-8] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 18:21:03 [http-nio-6363-exec-9] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 18:21:05 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 18:21:05 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 18:21:05 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 18:30:03 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 3228 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-01-31 18:30:03 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-01-31 18:30:03 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-01-31 18:30:37 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-01-31 18:30:47 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 43.88 seconds (JVM running for 25676.151)
+2024-01-31 19:01:24 [Catalina-utility-1] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 19:02:10 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 3228 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-01-31 19:02:10 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-01-31 19:02:10 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-01-31 19:02:16 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-01-31 19:02:22 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 12.414 seconds (JVM running for 27571.893)
+2024-01-31 19:02:50 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarting 55 : Starting HEADSApplication on DESKTOP-J7B43I1 with PID 3228 (E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\HEADS_CORE\HEADS-CORE)
+2024-01-31 19:02:50 [restartedMain] DEBUG c.a.p.h.application.HEADSApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-01-31 19:02:50 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-01-31 19:02:55 [restartedMain] DEBUG c.a.prod.heads.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-01-31 19:03:01 [restartedMain] INFO  c.a.p.h.application.HEADSApplication - logStarted 61 : Started HEADSApplication in 11.221 seconds (JVM running for 27610.715)
+2024-01-31 19:08:18 [http-nio-6363-exec-1] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 19:08:19 [http-nio-6363-exec-3] DEBUG c.a.p.h.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-01-31 19:08:22 [http-nio-6363-exec-7] DEBUG c.a.p.h.c.CustomLoginController - doLogin 136 : ignoring captcha
+2024-01-31 19:08:22 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-01-31 19:08:22 [http-nio-6363-exec-7] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 19:15:07 [http-nio-6363-exec-2] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/satff/getStaffDtlsByStaffId=36
+2024-01-31 19:15:07 [http-nio-6363-exec-2] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 19:16:36 [http-nio-6363-exec-5] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/satff/getStaffDtlsByStaffId=36
+2024-01-31 19:16:36 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 19:17:28 [http-nio-6363-exec-7] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/satff/getStaffDtlsByStaffId=36
+2024-01-31 19:17:47 [http-nio-6363-exec-10] WARN  o.s.web.servlet.PageNotFound - noHandlerFound 1251 : No mapping for GET /heads/api/core/satff/getStaffDtlsByStaffId=36
+2024-01-31 19:18:57 [http-nio-6363-exec-5] ERROR c.a.p.h.r.c.StaffApiController - getStaffDetailsByUserId 41 : Exception occurred in getStaffDetailsByUserId() -> StaffApiController: begin 0, end -1, length 2
+2024-01-31 19:25:24 [http-nio-6363-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - logException 199 : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Long parameter 'staffId' is not present]
+2024-01-31 19:25:24 [http-nio-6363-exec-3] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created
+2024-01-31 19:25:56 [http-nio-6363-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - logException 199 : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Long parameter 'staffId' is not present]
+2024-01-31 19:25:56 [http-nio-6363-exec-5] INFO  c.a.p.heads.config.SessionListener - sessionCreated 16 : Session Created

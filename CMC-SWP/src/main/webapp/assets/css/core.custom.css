@@ -1,0 +1,116 @@
+
+.mt15{
+	margin-top:15px;
+}
+label.form-check-label {
+    position: relative;
+    top: 3px;
+}
+table button.btn.btn-info.btn-sm {
+    padding: 0 !important;
+    width: 25px;
+    height: 23px;
+}
+.datepicker-box i {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    color: #fff;
+}
+button.trigger.datepick-trigger {
+	    font-size: 11px;
+}
+table.dataTable thead th, table.dataTable tfoot th {
+    font-weight: 500;
+}
+.table thead {
+    font-size: 13px;
+    color: #fff;
+    background: #0346e8;
+}
+.form-group .bootstrap-select, .form-horizontal .bootstrap-select, .form-inline .bootstrap-select {
+    height: 31px;
+}
+.table .btn-primary, .table .btn-warning {
+   width:25px;
+   height:25px;
+    padding: 0 !important;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+        line-height: 26px;
+}
+button.btn.btn-xs.btn-warning {
+    width: 25px;
+    height: 25px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+}
+.data-row {
+    border-bottom: 1px solid #c5d3d3;
+}
+fieldset {
+    border: 1.5px dashed #c4c2c7 !important;
+}
+
+i.fa.fa-minus.remove-occ{
+	    position: relative;
+    float: right;
+    top: -16px;
+}
+i#apnd-btn-plus{
+	position: relative;
+    float: right;
+    top: -16px;
+}
+table thead th, table.dataTable tfoot th {
+    font-weight: 500;
+}
+#messageDiv button {
+    width: 25px;
+    height: 25px;
+    color: black !important;
+    padding: 0 !important;
+    border: none;
+    line-height: 0px;
+    background: none;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+.addRemoveBtnTd i.fa.fa-minus.remove-occ.frezee {
+    top: 0 !important;
+    right: 4px;
+}
+#tabs li.nav-item a {
+    background: #2196F3;
+    margin: 2px;
+    color: #fff;
+}
+a.nav-link.active {
+    background: #0346e8 !important;
+}
+.add-multi-row {
+    --bs-gutter-x: 0;
+}
+button.btn.btn-xs.btn-danger.remove-row-fa-minus {
+    width: 25px;
+    height: 26px;
+    line-height: 15px;
+    font-size: 12px;
+    padding: 0 !important;
+}
+button#plus_family {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 !important;
+}
+.table i#apnd-btn-plus {
+    top: 2px;
+    right: 7px;
+}

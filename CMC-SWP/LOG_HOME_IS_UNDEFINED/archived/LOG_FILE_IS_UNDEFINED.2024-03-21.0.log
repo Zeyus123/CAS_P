@@ -1,0 +1,34 @@
+2024-03-21 11:39:03 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarting 55 : Starting CMC_SWPApplication on DESKTOP-J7B43I1 with PID 11440 (E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP\target\classes started by AASHDIT in E:\PRADYUMNA WORKSPACE\CMC\CMC-SWP)
+2024-03-21 11:39:03 [restartedMain] DEBUG c.a.p.c.a.CMC_SWPApplication - logStarting 56 : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2024-03-21 11:39:03 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStartupProfileInfo 655 : The following profiles are active: dev
+2024-03-21 11:39:22 [restartedMain] WARN  Hibernate Types - printBanner 282 : You should use Hypersistence Optimizer to speed up your Hibernate application!
+2024-03-21 11:39:22 [restartedMain] WARN  Hibernate Types - printBanner 283 : For more details, go to https://vladmihalcea.com/hypersistence-optimizer/
+2024-03-21 11:39:22 [restartedMain] INFO  Hibernate Types - printBanner 285 : 
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+           ____        _   _           _
+          / __ \      | | (_)         (_)
+         | |  | |_ __ | |_ _ _ __ ___  _ _______ _ __
+         | |  | | '_ \| __| | '_ ` _ \| |_  / _ \ '__|
+         | |__| | |_) | |_| | | | | | | |/ /  __/ |
+          \____/| .__/ \__|_|_| |_| |_|_/___\___|_|
+                | |
+                |_|
+
+2024-03-21 11:39:22 [restartedMain] INFO  Hibernate Types - printBanner 309 : Check out the README page for more info about the Hypersistence Optimizer banner https://github.com/vladmihalcea/hibernate-types#how-to-remove-the-hypersistence-optimizer-banner-from-the-log
+2024-03-21 11:39:28 [restartedMain] DEBUG c.a.prod.cmc.security.JwtFilter - init 242 : Filter 'jwtFilter' configured for use
+2024-03-21 11:39:35 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - startServer 61 : Unable to start LiveReload server
+2024-03-21 11:39:35 [restartedMain] INFO  c.a.p.c.a.CMC_SWPApplication - logStarted 61 : Started CMC_SWPApplication in 32.906 seconds (JVM running for 37.355)
+2024-03-21 11:41:40 [http-nio-6363-exec-1] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-21 11:41:43 [http-nio-6363-exec-9] DEBUG c.a.p.c.c.umt.CaptchaController - generateCaptcha 108 : Captcha Option set to s
+2024-03-21 11:41:48 [http-nio-6363-exec-8] DEBUG c.a.p.c.c.CustomLoginController - doLogin 129 : ignoring captcha
+2024-03-21 11:41:48 [http-nio-6363-exec-8] INFO  c.a.prod.cmc.config.SessionListener - sessionDestroyed 22 : Session Expired
+2024-03-21 11:41:48 [http-nio-6363-exec-8] INFO  c.a.prod.cmc.config.SessionListener - sessionCreated 16 : Session Created
+2024-03-21 11:41:50 [http-nio-6363-exec-10] INFO  c.a.p.cmc.controller.HomeController - home 61 : com.aashdit.prod.cmc.model.umt.User@37d2247
