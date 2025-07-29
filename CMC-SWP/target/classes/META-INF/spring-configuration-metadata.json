@@ -8,11 +8,6 @@
   ],
   "properties": [
     {
-      "name": "UPLOAD.FILE.PATH",
-      "type": "java.lang.String",
-      "description": "A description for 'UPLOAD.FILE.PATH'"
-    },
-    {
       "name": "cmc.app-password",
       "type": "java.lang.String",
       "sourceType": "com.aashdit.prod.cmc.utils.CMCAppProperties"
@@ -86,11 +81,6 @@
       "name": "cmc.username",
       "type": "java.lang.String",
       "sourceType": "com.aashdit.prod.cmc.utils.CMCAppProperties"
-    },
-    {
-      "name": "spring.jpa.ddl-auto",
-      "type": "java.lang.String",
-      "description": "A description for 'spring.jpa.ddl-auto'"
     }
   ],
   "hints": []

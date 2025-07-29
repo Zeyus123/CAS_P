@@ -97,7 +97,7 @@ public class HomeController {
 		} catch (Exception e) {
 			log.error("Exception occured in forgotPassword method in HomeController-->" + e.getMessage());
 		}
-		return "redirect:/login";
+		return "redirect:/login"; 
 	}
 
 	@GetMapping(value = "/admin/user/login/history")
